@@ -138,7 +138,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (atomic) BOOL checkForSurveysOnActive;
 
 
-- (void)checkForNotificationsWithCompletion:(void (^)(NSArray *notifications))completion;
+- (void)checkForSurveysWithCompletion:(void (^)(NSArray *surveys))completion;
 
 /*!
  @property
